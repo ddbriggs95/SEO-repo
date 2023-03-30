@@ -88,11 +88,13 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* consolidated benefit-lead, benefit-brand, and benefit-cost because each styling is the same
+into .benefit class */
+ .benefit-lead { 
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+ 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -103,6 +105,10 @@ p {
     color: #ffffff;
 }
 
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
